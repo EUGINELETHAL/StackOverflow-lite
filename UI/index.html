@@ -10,7 +10,21 @@
   <body>
   <div class="topnav" id="myTopnav">
       <a href="index.html"><b>Stackoverflow-lite</b></a>
-      <a href="customer-registration.html" class="menu-item">Register</a>
+      <a href="user-registration.html" class="menu-item">Register</a>
       <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-    
+    <div class="login-intro-header">
+      <form action="">
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+          <button class="button" type="submit"><span>Login</span></button>
+          <label><span>New here? <a href="user-registration.html">Click here</a> to register.</span></label>
+        </div>
+      </form>
+    </div>
