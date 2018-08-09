@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: url("../img/restaurant.png");}
+body,html {
+  height: 100%;
+}
+h1,h2,h3,h4,h5,h6,span {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+}
+
+/*top Nav styling*/
+.topnav {
+  overflow: hidden;
+  background-color: #34495e;
+  border-bottom: 2px solid #34495e;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+
+.topnav a.menu-item {
+  float:right;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #95a5a6;
+}
+
+.active {
+  background-color: #fff;
+  color: #000;
+  font-weight: 900;
+  font-size: 120%;
+}
+
+.topnav .icon {
+  display: none;
+}
+  
