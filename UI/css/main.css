@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background: url("../img/question.jpeg");
+  background: url("../img/greywhite.jpeg");
   margin: 0;
   padding:0;
   background-size: cover;
@@ -218,6 +218,47 @@ span.psw {
     }
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+  max-height: min-content;
+  background-color: #34495e;
+
+}
+
+.title {
+  color:grey;
+  font-size: 18px;}
+  .usercontentcontainer{
+    width: 880px;
+    float:right;
+   }
+  
+   .userquestions {
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+    
+  
+  .usercontent{
+    width: 880px;
+    float:right;
+   }
+   .viewanswers {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background:	#5DBCD2;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
 /*Customer registration form*/
 .custreg-intro-header {
   width:400px;
@@ -274,231 +315,7 @@ span.psw {
 
 
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    border-radius: 6px;
-    margin: 7px;
-}
 
-div.gallery:hover {
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius:6px;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-#order-history-table {
-  width:90%;
-  margin: auto;
-  padding: 20px;
-  margin-bottom: 15px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border-radius: 6px;
-  overflow: hidden;
-  border-collapse: collapse;
-}
-
-#order-history-table td, #order-history-table th {
-    border: 0;
-    padding: 8px;
-}
-
-#order-history-table tr:nth-child(even){background-color: #ecf0f1;}
-
-#order-history-table tr:hover {
-  background-color: #ddd;
-  cursor: pointer;
-}
-
-#order-history-table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #34495e;
-    color: white;
-}
-
-/*Order meals page*/
-.order-intro-header {
-  width:90%;
-  margin: auto;
-  overflow: hidden;
-  margin-top:15px;
-  margin-bottom: 15px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border-radius: 6px;
-}
-.order-intro-header h2 {
-  float: left;
-  padding: 10px;
-  margin: 0;
-  display: block;
-}
-
-.caterer-specs-intro-header {
-  width:90%;
-  margin: auto;
-  overflow: hidden;
-
-  
-}
- .menu {
-  width: 15%;
-  margin: auto;
-  overflow: hidden;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  float: left;
-  border-radius: 6px;
-  padding:0;
-  
- }
-
- @media screen and (max-width: 600px) {
-  .menu {
-    display: none;
-  }
- }
-
- .menu h4 {
-    margin:0;
-    background-color: #95a5a6;
-    padding:8px;
-
- }
- .menu ul {
-    list-style-type: none;
-    float: left;
-    margin:0;
-    padding:4px;
-
- }
-.menu ul li a{
-  float: left;
-  display: block;
-  color: #34495e;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-}
-
-.menu-items {
-  width:55%;
-  margin: auto;
-  overflow: hidden;
-  padding: 0;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border-radius: 6px;
-  float:left;
-  height: 600px;
-  overflow: scroll;
-}
-article .gallery {
-  background-color: #bdc3c7;
-  width: 30.5%;
-}
-
-#add-to-cart {
-  border-radius: 6px;
-  padding: 6px;
-  cursor: pointer;
-}
-.cart {
-  width:22.5%;
-  margin: auto;
-  overflow: hidden;
-  margin-bottom: 15px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border-radius: 6px;
-  float: left;
- }
-.cart h4 {
-    margin:0;
-    background-color: #95a5a6;
-    padding:8px;
-
- }
-.cart button {
-  width: 50%;
-  float:right;
-  font-size: 12px;
- }
-
- /*Caterer page*/
-
-#today-header {
-  width:200px;
-  margin: auto;
-  display: block;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border-radius: 6px;
-  overflow: hidden;
-  text-align: center;
-  margin-bottom: 6px;
-  margin-top: 6px;
-  /*float: left;*/
-
- }
-
-#complete-order {
-  border-radius: 6px;
-  padding: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  width: 150px;
-}
-
-.caterer-menu-items {
-  width:70%;
-  margin: auto;
-  overflow: hidden;
-  padding: 0;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  border-radius: 6px;
-  float:left;
-  /*height: 600px;
-  overflow: scroll;*/
-
-}
-
-.caterer-actions {
-  width:28%;
-  margin: auto;
-  overflow: hidden;
-  margin-bottom: 15px;
-  border-radius: 6px;
-  float: left;
- }
-
-/*Caterer add item page*/
-.imgcontainer {
-  width: 40%;
-  margin: auto;
-  
-}
 
 /*footer section*/
 
