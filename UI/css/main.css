@@ -1,8 +1,11 @@
 body {
   margin: 0;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background: url("../img/restaurant.png");
-  }
+  background: url("../img/kenya.jpeg");
+  margin: 0;
+  padding:0;
+  background-size: cover;
+}
 body,html {
   height: 100%;
 }
@@ -49,6 +52,10 @@ h1,h2,h3,h4,h5,h6,span {
 
 .topnav .icon {
   display: none;
+    width: 55px;
+    height:55px;
+    cursor: pointer;
+
 }
 .intro-header {
   width: 100%;
@@ -167,6 +174,10 @@ input[type=text], input[type=password], textarea,select{
     box-sizing: border-box;
     border-radius: 6px;
 }
+#message{height: 200px; 
+  width: 500px;
+
+}
 
 /*"Forgot password" text*/
 span.psw {
@@ -236,40 +247,8 @@ span.psw {
     }
 }
 
-/*Search Caterer Page*/
-.choose-caterer-intro-header {
-  width:90%;
-  margin: auto;
-  overflow: hidden;
-  margin-top:15px;
-  margin-bottom: 15px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border-radius: 6px;
-  padding:10px;
-}
 
-.choose-caterer-intro-header input[type=text] {
-  width: 180px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  background-image: url('../img/searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-}
 
-.choose-caterer-intro-header input[type=text]:focus {
-    width: 50%;
-}
-.choose-caterer-intro-header button {
-  float: right;
-}
 
 @media screen and (max-width: 600px) {
   .choose-caterer-intro-header {
@@ -279,18 +258,7 @@ span.psw {
 
 }
 
-.popular-caterer-intro-header {
-  width:90%;
-  margin: auto;
-  overflow: hidden;
-  padding: 10px;
-  margin-top:15px;
-  margin-bottom: 15px;
-  background-color: rgb(245, 245, 245);
-  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-  border-radius: 6px;
-  min-height: 300px;
-}
+
 
 div.gallery {
     margin: 5px;
