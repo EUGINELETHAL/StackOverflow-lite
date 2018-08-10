@@ -192,6 +192,10 @@ input[type=text], input[type=password], textarea,select{
   width: 500px;
 
 }
+.search{
+  width:600px;
+
+}
 
 /*"Forgot password" text*/
 span.psw {
