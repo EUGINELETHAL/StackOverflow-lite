@@ -11,5 +11,14 @@ Switch to stackoverflow directory created after cloning:&nbsp;
 
 Run index.html file in your browser.&nbsp;   
 
-#### UI link to gh-pages:    
+#### UI link to gh-pages:
+
+Technologies Used
+Created with
+* CSS
+* HTML
+* JS
+ ## Support and contact details
+Feel free to contact me for any support : <br />
+&nbsp;&nbsp;&nbsp;Email: ochungeugine@gmail.com
 
